@@ -72,4 +72,7 @@ function addSubmitListener() {
     form.reset();
 });
 }
-
+function main() {
+  displayRamens();
+  addSubmitListener();
+}

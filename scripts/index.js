@@ -59,3 +59,16 @@ function handleClick(ramen) {
 function addSubmitListener() {
   const form = document.getElementById('new-ramen-form');
   form.addEventListener('submit', event => {
+    event.preventDefault();
+    const newRamen = {
+        name: document.getElementById('new-name').value,
+        restaurant: document.getElementById('new-restaurant').value,
+        image: document.getElementById('new-image').value,
+        rating: document.getElementById('new-rating').value,
+        comment: document.getElementById('new-comment').value
+    };
+    ramens.push(newRamen);
+    displayRamens();
+    form.reset();
+});
+}

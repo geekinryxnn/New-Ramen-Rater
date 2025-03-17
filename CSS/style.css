@@ -27,3 +27,13 @@ header {
     height: 150px;
     align-items: center;
   }
+
+  #ramen-detail,
+#new-ramen-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  max-width: 600px;
+  
+}

@@ -72,8 +72,7 @@ function addSubmitListener() {
     form.reset();
 });
 }
-function main() {
+(function main() {
   displayRamens();
   addSubmitListener();
-}
-document.addEventListener('DOMContentLoaded', main);
+})();

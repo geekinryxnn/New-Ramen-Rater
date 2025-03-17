@@ -21,3 +21,9 @@ header {
     align-items: center;
     margin: 2rem;
   }
+
+  #ramen-menu img {
+    width: 200px;
+    height: 150px;
+    align-items: center;
+  }

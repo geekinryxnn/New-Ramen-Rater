@@ -4,4 +4,13 @@ body {
     background-color: rgb(20, 160, 160);
   }
 
-  
+
+header {
+    text-align: center;
+    background-color: rgb(209, 99, 99);
+    color: aliceblue;
+    font-size: larger;
+    align-items: center;
+    padding:1rem 0;
+    font-size:25px;
+  }

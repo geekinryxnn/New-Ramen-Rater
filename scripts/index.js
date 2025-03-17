@@ -48,4 +48,10 @@ function displayRamens() {
   });
 }
 
-
+function handleClick(ramen) {
+  document.getElementById('detail-image').src = ramen.image;
+  document.getElementById('detail-name').textContent = ramen.name;
+  document.getElementById('detail-restaurant').textContent = ramen.restaurant;
+  document.getElementById('detail-rating').textContent = `Rating: ${ramen.rating}`;
+  document.getElementById('detail-comment').textContent = `Comment: ${ramen.comment}`;
+}

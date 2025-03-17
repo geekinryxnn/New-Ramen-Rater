@@ -36,3 +36,16 @@ const ramens = [
           comment:"Very healthy",
         },
     ];
+
+    function displayRamens() {
+        const ramenMenu = document.getElementById('ramen-menu');
+        ramenMenu.innerHTML = '';
+        ramens.forEach(ramen => {
+            const img = document.createElement('img');
+            img.src = ramen.image;
+            img.alt = ramen.name;
+            img.addEventListener('click', () => handleClick(ramen));
+            ramenMenu.appendChild(img);
+        });
+    }
+    

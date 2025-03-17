@@ -55,3 +55,7 @@ function handleClick(ramen) {
   document.getElementById('detail-rating').textContent = `Rating: ${ramen.rating}`;
   document.getElementById('detail-comment').textContent = `Comment: ${ramen.comment}`;
 }
+
+function addSubmitListener() {
+  const form = document.getElementById('new-ramen-form');
+  form.addEventListener('submit', event => {

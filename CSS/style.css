@@ -46,3 +46,20 @@ header {
     font-size: 15px;
     font-weight:bolder;
   }
+
+  button:hover {
+    background-color: #0e0c0c;
+    color: white;
+  }
+  
+  #ramen-detail img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  #new-ramen-form input,
+  #new-ramen-form textarea {
+    width: 100%;
+    margin-bottom: 0.8rem;
+    height:30px;
+  }

@@ -14,3 +14,10 @@ header {
     padding:1rem 0;
     font-size:25px;
   }
+
+  #ramen-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }

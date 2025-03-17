@@ -76,3 +76,4 @@ function main() {
   displayRamens();
   addSubmitListener();
 }
+document.addEventListener('DOMContentLoaded', main);

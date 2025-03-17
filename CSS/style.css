@@ -37,3 +37,12 @@ header {
   max-width: 600px;
   
 }
+
+#new-ramen-form button {
+    align-self: center;
+    width: 250px;
+    height: 80%;
+    padding:1rem;
+    font-size: 15px;
+    font-weight:bolder;
+  }

@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ramen Rating App</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./CSS/style.css">
+  
+</head>
+<body>
     <header>Ramen Rater</header>
-    <div id= "menu">
-        <img src="Images/gyukotsu.jpg" alt="">
-        <img src="Images/kojiro (1).jpg" alt="">
-        <img src="Images/naruto.jpg" alt="">
-        <img src="Images/nirvana.jpg" alt="">
-    </div>
+    <div id="ramen-menu"></div>
     <div id="ramen-detail">
-      <img id="detail-image" src="Images/gyukotsu.jpg" alt="Ramen Image" />
-      <h2 id="detail-name"></h2>
-      <h3 id="detail-restaurant"></h3>
-      <p id="detail-rating"></p>
-      <p id="detail-comment"></p>
+        <img id="detail-image" src="Images/gyukotsu.jpg" alt="Ramen Image">
+        <h2 id="detail-name"></h2>
+        <h3 id="detail-restaurant"></h3>
+        <p id="detail-rating"></p>
+        <p id="detail-comment"></p>
     </div>
     <form id="ramen-form">
-      <input type="text" id="ramen-name" placeholder="Ramen Name" required />
-      <input
-        type="text"
-        id="ramen-restaurant"
-        placeholder="Restaurant"
-        required
-      />
-      <input type="text" id="ramen-image" placeholder="Image URL" required />
-      <input type="text" id="ramen-rating" placeholder="Rating" />
-      <textarea id="comment" placeholder="Comment"></textarea>
-      <button type="submit">Add Ramen</button>
+        <input type="text" 
+        id="name" 
+        placeholder="Ramen Name" required>
+        <input type="text" 
+        id="restaurant" 
+        placeholder="Restaurant" required>
+        <input type="text" 
+        id="image" 
+        placeholder="Image URL" required>
+        <input type="text" 
+        id="rating" 
+        placeholder="Rating">
+        <textarea id="comment"
+         placeholder="Comment"></textarea>
+        
+         <button type="submit">Add Ramen</button>
     </form>
     <script src="./scripts/index.js"></script>
-  </body>
-</html>
+</body>
+</html></html>

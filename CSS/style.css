@@ -1,66 +1,76 @@
 body {
-    margin: 0%;
-    padding: 0%;
-    background-color: rgb(20, 160, 160);
-  }
-  
-  header {
-    text-align: center;
-    background-color: rgb(209, 99, 99);
-    color: aliceblue;
-    font-size: larger;
-    align-items: center;
-    padding:1rem 0;
-    font-size:25px;
-  }
-  
-  #ramen-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2rem;
-  }
-  
-  #ramen-menu img {
-    width: 200px;
-    height: 170px;
-    align-items: center;
-    margin: 2rem 0;
-    margin-right: 2rem;
-    border: 5px solid black;
-  }
-  #ramen-detail,
-  #ramen-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem auto;
-    max-width: 600px;
-    
-  }
-  #ramen-form button {
-    align-self: center;
-    width: 250px;
-    height: 80%;
-    padding:1rem;
-    font-size: 15px;
-    font-weight:bolder;
-  }
-  
-  button:hover {
-    background-color: #0e0c0c;
-    color: white;
-  }
-  
-  #ramen-detail img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  #ramen-form input,
-  #ramen-form textarea {
-    width: 100%;
-    margin-bottom: 0.8rem;
-    height:30px;
-  }
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(20, 160, 160);
+}
 
+header {
+  text-align: center;
+  background-color: rgb(209, 99, 99);
+  color: aliceblue;
+  font-size: larger;
+  align-items: center;
+  padding: 1rem 0;
+  font-size: 25px;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+#ramen-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+#ramen-menu img {
+  width: 200px;
+  height: 150px;
+  align-items: center;
+  margin: 2rem 0;
+  margin-right: 2rem;
+  border: 5px solid black;
+}
+#ramen-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  max-width: 400px;
+  padding: 0rem;
+}
+#ramen-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem auto;
+  max-width: 400px;
+}
+#ramen-form button {
+  align-self: center;
+  width: 250px;
+  height: 80%;
+  padding: 1rem;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #0e0c0c;
+  color: white;
+}
+
+#ramen-detail img {
+  max-width: 100%;
+  height: auto;
+}
+
+#ramen-form input,
+#ramen-form textarea {
+  width: 100%;
+  margin-bottom: 0.8rem;
+  height: 30px;
+}

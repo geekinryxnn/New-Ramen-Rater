@@ -23,8 +23,10 @@ body {
   
   #ramen-menu img {
     width: 200px;
-    height: 150px;
+    height: 170px;
     align-items: center;
+    margin: 2rem 0;
+    margin-right: 2rem;
   }
   #ramen-detail,
   #ramen-form {

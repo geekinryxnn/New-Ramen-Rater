@@ -27,6 +27,7 @@ body {
     align-items: center;
     margin: 2rem 0;
     margin-right: 2rem;
+    border: 5px solid black;
   }
   #ramen-detail,
   #ramen-form {

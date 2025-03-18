@@ -17,6 +17,11 @@ header {
 h2 {
   display: flex;
   justify-content: center;
+  align-items: center;
+  background-color: #0e0c0c;
+  color: aliceblue;
+  width: 400px;
+  margin: auto;
 }
 
 #ramen-menu {
